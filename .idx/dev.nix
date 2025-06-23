@@ -16,6 +16,8 @@
 
     pkgs.mysql80
 
+    pkgs.openssh
+
   ];
 
 
