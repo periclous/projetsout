@@ -13,7 +13,6 @@ return new class extends Migration
     {
         Schema::create('detail_sorties', function (Blueprint $table) {
             $table->id();
-            $table->id();
             $table->foreignId('sortie_id')->constrained('sorties')->onDelete('cascade');
             $table->foreignId('matiere_id')->constrained('matieres')->onDelete('cascade');
             $table->integer('quantite');
